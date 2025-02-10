@@ -1,0 +1,5 @@
+FROM nginx:stable
+
+#define working dir
+WORKDIR /usr/share/nginx/html/app
+COPY . /usr/share/nginx/html/app
